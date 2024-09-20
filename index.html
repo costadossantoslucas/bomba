@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomba de Combustível</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bomba-container">
+        <div class="bomba-header">
+            <h1>Painel da Bomba de Combustível</h1>
+        </div>
+        <div class="bomba-display">
+            <div class="display-info">
+                <h3>Quantidade de Combustível</h3>
+                <p id="quantidadeCombustivel">500 litros</p>
+            </div>
+            <div class="display-info">
+                <h3>Preço por Litro</h3>
+                <p id="precoLitro">R$ 6.39</p>
+            </div>
+            <div class="display-info">
+                <h3>Tipo de Combustível</h3>
+                <p id="tipoCombustivel">Gasolina Comum</p>
+            </div>
+        </div>
+        <div class="bomba-controls">
+            <button onclick="abastecerPorValor()">Abastecer por Valor</button>
+            <button onclick="abastecerPorLitro()">Abastecer por Litro</button>
+            <button onclick="alterarCombustivel()">Alterar Combustível</button>
+            <button onclick="alterarValor()">Alterar Valor</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
